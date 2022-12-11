@@ -112,6 +112,12 @@ input {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    gap: 1rem;
+
+}
+
+.navbar a {
+    color: black;
 }
 
 .profile {
