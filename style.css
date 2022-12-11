@@ -71,7 +71,7 @@ input {
 /* end layout */
 
 .header {
-    background: coral;
+    background-color: darkcyan;
     grid-column: 2/-1;
 
     display: grid;
@@ -138,14 +138,17 @@ input {
 
 .projects {
     grid-column: 1 span 2;
+    padding: 1em;
+
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: 1fr 1fr auto;
+    gap: 20px;
+
 }
 
 .announcements {
-    background-color: white;
 
 
     grid-column: 2/-1;
@@ -153,18 +156,19 @@ input {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: repeat(2, 1fr);
+    padding: 1em;
 }
 
 .trending {
     grid-column: 2/-1;
-    background-color: lightblue;
 }
 
 .card {
     padding: 1em;
+    background-color: #fff;
+    font-size: 90%;
 
-    outline: 3px solid pink;
-
+    border-radius: 10px;
 }
 
 .sidebar {
@@ -182,3 +186,5 @@ input {
 .sidebar>div+div {
     margin-top: 2em;
 }
+
+.projects {}
