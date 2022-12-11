@@ -166,3 +166,19 @@ input {
     outline: 3px solid pink;
 
 }
+
+.sidebar {
+    padding: 2em 1em;
+}
+
+.sidebar>div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+
+}
+
+.sidebar>div+div {
+    margin-top: 2em;
+}
